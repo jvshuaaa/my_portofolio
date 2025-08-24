@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <!-- =========================================
-         META & HEAD
-         ========================================= -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio | [Joshua Setiawan Banjarnahor]</title>
+    <title>Professional Portfolio | Joshua Setiawan Banjarnahor</title>
 
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,9 +11,6 @@
     <!-- Google Fonts: Poppins -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- =========================================
-         STYLES
-         ========================================= -->
     <style>
         html {
             scroll-behavior: smooth;
@@ -57,9 +51,7 @@
 </head>
 
 <body class="bg-gray-50 text-gray-800">
-    <!-- =========================================
-         NAVIGATION
-         ========================================= -->
+    <!-- NAVIGATION -->
     <nav class="fixed w-full bg-white shadow-md z-50">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
@@ -81,9 +73,8 @@
                 <!-- Mobile Button -->
                 <div class="md:hidden flex items-center">
                     <button id="menu-toggle" class="text-gray-700" aria-label="Toggle Menu">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                  d="M4 6h16M4 12h16M4 18h16"></path>
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </button>
                 </div>
@@ -103,240 +94,168 @@
         </div>
     </nav>
 
-    <!-- =========================================
-         HERO SECTION
-         ========================================= -->
-<section id="home" class="hero-gradient text-white pt-32 pb-20 md:pb-32 px-4">
-    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
-        <!-- Left Col (Text) -->
-        <div class="order-2 md:order-1">
-            <h1 class="text-4xl md:text-5xl font-bold mb-4">
-                Joshua Setiawan Banjarnahor
-            </h1>
-            <h2 class="text-2xl md:text-3xl font-semibold mb-2 text-indigo-100">
-                Informatics Engineering
-            </h2>
-            <p class="text-lg mb-8 max-w-lg text-indigo-200">
-                Indraprasta PGRI University
-            </p>
-            <div class="flex space-x-4">
-                <a href="#contact" class="bg-white text-indigo-600 px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition duration-300 shadow-lg">
-                    Hire Me
-                </a>
-                <a href="https://drive.google.com/uc?export=download&id=14zTeRoFJSYpDjGU35DAM-qVmDV0w7s8M" 
-                 class="border border-white text-white px-6 py-3 rounded-md font-medium hover:bg-white hover:text-indigo-600 transition duration-300">
-                    Download CV
-                </a>
-
-            </div>
-        </div>
-
-        <!-- Right Col (Image) -->
-        <div class="order-1 md:order-2 flex justify-center">
-            <div class="relative">
-                <div class="w-64 h-64 md:w-80 md:h-80 bg-white rounded-full overflow-hidden border-4 border-white shadow-xl">
-                    <!-- NOTE: ganti dengan path/gambar profil kamu -->
-                    <img
-                        src="https://i.imgur.com/KmXYK1a.png"
-                        alt="Professional portrait of Joshua Setiawan Banjarnahor"
-                        class="w-full h-full object-cover" />
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-gradient text-white pt-32 pb-20 md:pb-32 px-4">
+        <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+            <!-- Left Col (Text) -->
+            <div class="order-2 md:order-1">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Joshua Setiawan Banjarnahor</h1>
+                <h2 class="text-2xl md:text-3xl font-semibold mb-2 text-indigo-100">Informatics Engineering</h2>
+                <p class="text-lg mb-8 max-w-lg text-indigo-200">Indraprasta PGRI University</p>
+                <div class="flex space-x-4">
+                    <a href="#contact" class="bg-white text-indigo-600 px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition duration-300 shadow-lg">
+                        Hire Me
+                    </a>
+                    <a href="https://drive.google.com/uc?export=download&id=14zTeRoFJSYpDjGU35DAM-qVmDV0w7s8M" 
+                     class="border border-white text-white px-6 py-3 rounded-md font-medium hover:bg-white hover:text-indigo-600 transition duration-300">
+                        Download CV
+                    </a>
                 </div>
-                <div class="absolute -bottom-2 -left-2 bg-indigo-500 text-white px-4 py-2 rounded-full shadow-lg">
-                    <span class="text-sm font-medium">Available for work</span>
+            </div>
+
+            <!-- Right Col (Image) -->
+            <div class="order-1 md:order-2 flex justify-center">
+                <div class="relative">
+                    <div class="w-64 h-64 md:w-80 md:h-80 bg-white rounded-full overflow-hidden border-4 border-white shadow-xl">
+                        <img src="https://i.imgur.com/KmXYK1a.png" alt="Professional portrait of Joshua Setiawan Banjarnahor" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute -bottom-2 -left-2 bg-indigo-500 text-white px-4 py-2 rounded-full shadow-lg">
+                        <span class="text-sm font-medium">Available for work</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20 px-4 min-h-screen flex items-center">
+        <div class="max-w-6xl mx-auto w-full">
+            <h2 class="text-3xl font-bold text-center mb-12">About <span class="text-indigo-600">Me</span></h2>
 
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- About Image -->
+                <div class="relative flex items-center justify-center">
+                    <img src="https://i.imgur.com/pYe3cqn.jpeg" alt="Foto Joshua Setiawan Banjarnahor" class="rounded-lg shadow-xl w-full h-auto object-cover">
+                    <div class="absolute -bottom-6 -right-6 bg-indigo-600 text-white p-4 rounded-lg shadow-lg max-w-xs hidden md:block">
+                        <h4 class="font-bold mb-2">10+ Projects</h4>
+                        <p class="text-sm">Successfully delivered to satisfied clients</p>
+                    </div>
+                </div>
 
-      <section id="about" class="py-20 px-4 min-h-screen flex items-center">
-  <div class="max-w-6xl mx-auto w-full">
-    <!-- Section Title -->
-    <h2 class="text-3xl font-bold text-center mb-12">
-      About <span class="text-indigo-600">Me</span>
-    </h2>
+                <!-- About Text -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">Who am I?</h3>
+                    <p class="text-gray-600 mb-6">
+                        I am <span class="font-semibold">Joshua Setiawan Banjarnahor</span>, a
+                        recent graduate in Informatics Engineering from Universitas
+                        Indraprasta PGRI Jakarta. I am a creative, honest, detail-oriented,
+                        fast learner, and responsible person. I also have professional
+                        experience working at
+                        <span class="font-semibold">Sari Roti</span> as a Production Operator.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Since high school, I have been focused on social sciences, and during
+                        college I actively participated in spiritual activities. Currently, I
+                        am exploring the fields of
+                        <span class="font-semibold">Artificial Intelligence</span> and
+                        <span class="font-semibold">Cybersecurity</span> through an
+                        independent study program organized by Hacktiv8.
+                    </p>
 
-    <!-- About Content -->
-    <div class="grid md:grid-cols-2 gap-12 items-center">
-      <!-- About Image -->
-      <div class="relative flex items-center justify-center">
-        <img
-          
+                    <!-- Badges -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
+                        <div class="flex items-center">
+                            <div class="bg-indigo-100 p-3 rounded-full mr-3">
+                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Experience</h4>
+                                <p class="text-gray-600 text-sm">Production Operator at Sari Roti</p>
+                            </div>
+                        </div>
 
-  src="https://i.imgur.com/pYe3cqn.jpeg" 
-  alt="Foto Joshua Setiawan Banjarnahor"
-  class="rounded-lg shadow-xl w-full h-auto object-cover"
-        />
-        <div
-          class="absolute -bottom-6 -right-6 bg-indigo-600 text-white p-4 rounded-lg shadow-lg max-w-xs hidden md:block"
-        >
-          <h4 class="font-bold mb-2">10+ Projects</h4>
-          <p class="text-sm">Successfully delivered to satisfied clients</p>
-        </div>
-      </div>
-
-      <!-- About Text -->
-      <div>
-        <h3 class="text-2xl font-semibold mb-4">Who am I?</h3>
-        <p class="text-gray-600 mb-6">
-          I am <span class="font-semibold">Joshua Setiawan Banjarnahor</span>, a
-          recent graduate in Informatics Engineering from Universitas
-          Indraprasta PGRI Jakarta. I am a creative, honest, detail-oriented,
-          fast learner, and responsible person. I also have professional
-          experience working at
-          <span class="font-semibold">Sari Roti</span> as a Production Operator.
-        </p>
-        <p class="text-gray-600 mb-6">
-          Since high school, I have been focused on social sciences, and during
-          college I actively participated in spiritual activities. Currently, I
-          am exploring the fields of
-          <span class="font-semibold">Artificial Intelligence</span> and
-          <span class="font-semibold">Cybersecurity</span> through an
-          independent study program organized by Hacktiv8.
-        </p>
-
-        <!-- Badges -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
-          <div class="flex items-center">
-            <div class="bg-indigo-100 p-3 rounded-full mr-3">
-              <svg
-                class="w-6 h-6 text-indigo-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                />
-              </svg>
+                        <div class="flex items-center">
+                            <div class="bg-indigo-100 p-3 rounded-full mr-3">
+                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-medium">Specialization</h4>
+                                <p class="text-gray-600 text-sm">Artificial Intelligence & Cybersecurity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-              <h4 class="font-medium">Experience</h4>
-              <p class="text-gray-600 text-sm">
-                Production Operator at Sari Roti
-              </p>
+
+            <!-- Certifications -->
+            <div class="mt-20">
+                <h4 class="text-2xl font-semibold mb-6 text-center">Certifications</h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Working in a Digital World: Professional Skills</h5>
+                        <p class="text-sm text-gray-600">IBM-SkillsBuild · Issued Feb 29, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Job Application Essentials</h5>
+                        <p class="text-sm text-gray-600">IBM-SkillsBuild · Issued Mar 5, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Getting Started with Enterprise Data Science</h5>
+                        <p class="text-sm text-gray-600">IBM · Issued Mar 28, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Machine Learning for Data Science Projects</h5>
+                        <p class="text-sm text-gray-600">IBM · Issued Apr 3, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">AI Foundations</h5>
+                        <p class="text-sm text-gray-600">IBM-SkillsBuild · Issued Apr 9, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Introduction to Cybersecurity</h5>
+                        <p class="text-sm text-gray-600">Cisco · Issued May 13, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Getting Started with Enterprise-grade AI</h5>
+                        <p class="text-sm text-gray-600">IBM · Issued May 23, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Cybersecurity Fundamentals</h5>
+                        <p class="text-sm text-gray-600">IBM-SkillsBuild · Issued Jun 29, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Information Technology Fundamentals</h5>
+                        <p class="text-sm text-gray-600">IBM-SkillsBuild · Issued Jul 25, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Fortinet Certified Fundamentals Cybersecurity</h5>
+                        <p class="text-sm text-gray-600">Fortinet · Expires Sep 11, 2026</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Introduction to the Threat Landscape 2.0</h5>
+                        <p class="text-sm text-gray-600">Fortinet · Issued Sep 11, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Technical Introduction to Cybersecurity 1.0</h5>
+                        <p class="text-sm text-gray-600">Fortinet · Issued Aug 20, 2024</p>
+                    </div>
+                    <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
+                        <h5 class="font-medium">Getting Started in Cybersecurity 2.0</h5>
+                        <p class="text-sm text-gray-600">Fortinet · Issued Jan 28, 2025</p>
+                    </div>
+                </div>
             </div>
-          </div>
+        </div>
+    </section>
 
-          <div class="flex items-center">
-            <div class="bg-indigo-100 p-3 rounded-full mr-3">
-              <svg
-                class="w-6 h-6 text-indigo-600"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                />
-              </svg>
-            </div>
-            <div>
-              <h4 class="font-medium">Specialization</h4>
-              <p class="text-gray-600 text-sm">
-                Artificial Intelligence & Cybersecurity
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Certifications -->
-    <div class="mt-20">
-      <h4 class="text-2xl font-semibold mb-6 text-center">Certifications</h4>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">
-            Working in a Digital World: Professional Skills
-          </h5>
-          <p class="text-sm text-gray-600">
-            IBM-SkillsBuild · Issued Feb 29, 2024
-          </p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">Job Application Essentials</h5>
-          <p class="text-sm text-gray-600">
-            IBM-SkillsBuild · Issued Mar 5, 2024
-          </p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">Getting Started with Enterprise Data Science</h5>
-          <p class="text-sm text-gray-600">IBM · Issued Mar 28, 2024</p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">Machine Learning for Data Science Projects</h5>
-          <p class="text-sm text-gray-600">IBM · Issued Apr 3, 2024</p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">AI Foundations</h5>
-          <p class="text-sm text-gray-600">
-            IBM-SkillsBuild · Issued Apr 9, 2024
-          </p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">Introduction to Cybersecurity</h5>
-          <p class="text-sm text-gray-600">Cisco · Issued May 13, 2024</p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">Getting Started with Enterprise-grade AI</h5>
-          <p class="text-sm text-gray-600">IBM · Issued May 23, 2024</p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">Cybersecurity Fundamentals</h5>
-          <p class="text-sm text-gray-600">
-            IBM-SkillsBuild · Issued Jun 29, 2024
-          </p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">Information Technology Fundamentals</h5>
-          <p class="text-sm text-gray-600">
-            IBM-SkillsBuild · Issued Jul 25, 2024
-          </p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">Fortinet Certified Fundamentals Cybersecurity</h5>
-          <p class="text-sm text-gray-600">
-            Fortinet · Expires Sep 11, 2026
-          </p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">Introduction to the Threat Landscape 2.0</h5>
-          <p class="text-sm text-gray-600">Fortinet · Issued Sep 11, 2024</p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">
-            Technical Introduction to Cybersecurity 1.0
-          </h5>
-          <p class="text-sm text-gray-600">Fortinet · Issued Aug 20, 2024</p>
-        </div>
-        <div class="p-4 border rounded-lg shadow-sm hover:shadow-md transition">
-          <h5 class="font-medium">Getting Started in Cybersecurity 2.0</h5>
-          <p class="text-sm text-gray-600">Fortinet · Issued Jan 28, 2025</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-    <!-- =========================================
-         SKILLS SECTION
-         ========================================= -->
+    <!-- SKILLS SECTION -->
     <section id="skills" class="py-20 px-4 bg-gray-100">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-12">
-                My <span class="text-indigo-600">Skills</span>
-            </h2>
+            <h2 class="text-3xl font-bold text-center mb-12">My <span class="text-indigo-600">Skills</span></h2>
 
             <div class="grid md:grid-cols-2 gap-8">
                 <!-- Technical Skills -->
@@ -406,9 +325,8 @@
                         <!-- Card 1 -->
                         <div class="bg-white p-6 rounded-lg shadow-md">
                             <div class="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
-                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                                 </svg>
                             </div>
                             <h4 class="text-center font-semibold mb-2">Problem Solving</h4>
@@ -418,9 +336,8 @@
                         <!-- Card 2 -->
                         <div class="bg-white p-6 rounded-lg shadow-md">
                             <div class="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
-                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
                                 </svg>
                             </div>
                             <h4 class="text-center font-semibold mb-2">Team Collaboration</h4>
@@ -430,9 +347,8 @@
                         <!-- Card 3 -->
                         <div class="bg-white p-6 rounded-lg shadow-md">
                             <div class="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
-                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                 </svg>
                             </div>
                             <h4 class="text-center font-semibold mb-2">Time Management</h4>
@@ -442,9 +358,8 @@
                         <!-- Card 4 -->
                         <div class="bg-white p-6 rounded-lg shadow-md">
                             <div class="flex items-center justify-center w-12 h-12 bg-indigo-100 rounded-full mb-4 mx-auto">
-                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path>
+                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z"></path>
                                 </svg>
                             </div>
                             <h4 class="text-center font-semibold mb-2">Creativity</h4>
@@ -452,187 +367,161 @@
                         </div>
                     </div>
                 </div>
-                <!-- /Professional Skills -->
             </div>
         </div>
     </section>
 
-    <!-- =========================================
-         PROJECTS SECTION
-         ========================================= -->
+    <!-- PROJECTS SECTION -->
     <section id="projects" class="py-20 px-4">
-    <div class="max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-12">
-            Recent <span class="text-indigo-600">Projects</span>
-        </h2>
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">Recent <span class="text-indigo-600">Projects</span></h2>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Project 1 -->
-            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
-                <div class="project-image overflow-hidden">
-                    <img
-                        src="https://placehold.co/600x400"
-                        alt="Sistem Pendukung Keputusan dengan metode SAW"
-                        class="w-full h-48 object-cover hover:scale-105 transition duration-500" />
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="project-image overflow-hidden">
+                        <img src="https://i.imgur.com/6VygH9n.png" alt="Sistem Pendukung Keputusan dengan metode SAW" class="w-full h-48 object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-semibold">Tugas Akhir - Sistem Pendukung Keputusan</h3>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full">Web App</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                            A web-based decision support system for employee evaluation using the SAW method.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">PHP</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">MySQL</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">Bootstrap</span>
+                        </div>
+                        <a href="https://github.com/jvshuaaa/TA" target="_blank" class="mt-4 inline-block text-indigo-600 font-medium hover:text-indigo-800">
+                            View Project →
+                        </a>
+                    </div>
                 </div>
-                <div class="p-6">
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-xl font-semibold">Tugas Akhir - Sistem Pendukung Keputusan Penentuan Karyawan Terbaik dengan Metode SAW Berbasis Web</h3>
-                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full">Web App</span>
+
+                <!-- Project 2 -->
+                <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="project-image overflow-hidden">
+                        <img src="https://i.imgur.com/9zJ8Z2N.png" alt="Birthday surprise web project" class="w-full h-48 object-cover hover:scale-105 transition duration-500">
                     </div>
-                    <p class="text-gray-600 mb-4">
-                        A web-based decision support system for employee evaluation using the SAW method.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">PHP</span>
-                        <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">MySQL</span>
-                        <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">Bootstrap</span>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-semibold">Birthday Jesselyn</h3>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full">Website</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                            A creative birthday surprise project built as an interactive website.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">HTML</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">CSS</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/jvshuaaa/birthday_jesselyn" target="_blank" class="mt-4 inline-block text-indigo-600 font-medium hover:text-indigo-800">
+                            View Project →
+                        </a>
                     </div>
-                    <a href="https://github.com/jvshuaaa/TA" target="_blank" class="mt-4 inline-block text-indigo-600 font-medium hover:text-indigo-800">
-                        View Project →
-                    </a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="project-image overflow-hidden">
+                        <img src="https://i.imgur.com/8qK7V3f.png" alt="Birthday surprise project version 2" class="w-full h-48 object-cover hover:scale-105 transition duration-500">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="text-xl font-semibold">Birthday Jesselyn 17</h3>
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full">Website</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                            An upgraded version of the birthday surprise website with more animations and effects.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">HTML</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">CSS</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/jvshuaaa/birthday_jesselyn17" target="_blank" class="mt-4 inline-block text-indigo-600 font-medium hover:text-indigo-800">
+                            View Project →
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <!-- Project 2 -->
-            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
-                <div class="project-image overflow-hidden">
-                    <img
-                        src="https://placehold.co/600x400"
-                        alt="Birthday surprise web project"
-                        class="w-full h-48 object-cover hover:scale-105 transition duration-500" />
-                </div>
-                <div class="p-6">
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-xl font-semibold">Birthday Jesselyn</h3>
-                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full">Website</span>
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        A creative birthday surprise project built as an interactive website.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">HTML</span>
-                        <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">CSS</span>
-                        <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">JavaScript</span>
-                    </div>
-                    <a href="https://github.com/jvshuaaa/birthday_jesselyn" target="_blank" class="mt-4 inline-block text-indigo-600 font-medium hover:text-indigo-800">
-                        View Project →
-                    </a>
-                </div>
-            </div>
-
-            <!-- Project 3 -->
-            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
-                <div class="project-image overflow-hidden">
-                    <img
-                        src="https://placehold.co/600x400"
-                        alt="Birthday surprise project version 2"
-                        class="w-full h-48 object-cover hover:scale-105 transition duration-500" />
-                </div>
-                <div class="p-6">
-                    <div class="flex justify-between items-start mb-2">
-                        <h3 class="text-xl font-semibold">Birthday Jesselyn 17</h3>
-                        <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded-full">Website</span>
-                    </div>
-                    <p class="text-gray-600 mb-4">
-                        An upgraded version of the birthday surprise website with more animations and effects.
-                    </p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">HTML</span>
-                        <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">CSS</span>
-                        <span class="bg-gray-100 px-3 py-1 rounded-full text-xs text-gray-600">JavaScript</span>
-                    </div>
-                    <a href="https://github.com/jvshuaaa/birthday_jesselyn17" target="_blank" class="mt-4 inline-block text-indigo-600 font-medium hover:text-indigo-800">
-                        View Project →
-                    </a>
-                </div>
+            <!-- View All Projects Button -->
+            <div class="text-center mt-12">
+                <a href="https://github.com/jvshuaaa" target="_blank" class="inline-block border border-indigo-600 text-indigo-600 px-6 py-3 rounded-md font-medium hover:bg-indigo-600 hover:text-white transition duration-300">
+                    View All Projects
+                </a>
             </div>
         </div>
+    </section>
 
-        <!-- View All Projects Button -->
-        <div class="text-center mt-12">
-            <a href="https://github.com/jvshuaaa" target="_blank" class="inline-block border border-indigo-600 text-indigo-600 px-6 py-3 rounded-md font-medium hover:bg-indigo-600 hover:text-white transition duration-300">
-                View All Projects
-            </a>
-        </div>
-    </div>
-</section>
-
-
-    <!-- =========================================
-         EXPERIENCE SECTION
-         ========================================= -->
+    <!-- EXPERIENCE SECTION -->
     <section id="experience" class="py-20 px-4 bg-gray-100">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-12">
-                Work <span class="text-indigo-600">Experience</span>
-            </h2>
+            <h2 class="text-3xl font-bold text-center mb-12">Work <span class="text-indigo-600">Experience</span></h2>
 
             <div class="relative max-w-3xl mx-auto">
-               <div class="relative max-w-3xl mx-auto">
-    <!-- Timeline -->
-    <div class="space-y-8">
-        
-        <!-- Timeline item 1 -->
-<div class="timeline-item relative pl-14">
-    <div class="bg-white p-6 rounded-lg shadow-md">
-        <div class="flex justify-between items-start mb-2">
-            <h3 class="text-xl font-semibold">Magang Studi Independen Bersertifikat - AI & Cybersecurity</h3>
-            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Jan 2024 - Jun 2024</span>
-        </div>
-        <h4 class="text-gray-700 font-medium mb-3">Kemendikbudristek x Hacktiv8</h4>
-        <ul class="list-disc pl-5 text-gray-600 space-y-2">
-            <li>Mengikuti program studi independen intensif 5 hari per minggu selama 6 bulan</li>
-            <li>Menyelesaikan tugas-tugas teknis dan tantangan coding yang diberikan oleh mentor</li>
-            <li>Mengembangkan project akhir berupa sistem deteksi emosi dalam klasifikasi teks menggunakan model LSTM (Long Short-Term Memory)</li>
-            <li>Mempelajari dan menerapkan konsep-konsep kecerdasan buatan, pemrosesan bahasa alami, dan deep learning</li>
-        </ul>
-    </div>
-</div>
+                <div class="space-y-8">
+                    <!-- Timeline item 1 -->
+                    <div class="timeline-item relative pl-14">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-semibold">Magang Studi Independen Bersertifikat - AI & Cybersecurity</h3>
+                                <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Jan 2024 - Jun 2024</span>
+                            </div>
+                            <h4 class="text-gray-700 font-medium mb-3">Kemendikbudristek x Hacktiv8</h4>
+                            <ul class="list-disc pl-5 text-gray-600 space-y-2">
+                                <li>Mengikuti program studi independen intensif 5 hari per minggu selama 6 bulan</li>
+                                <li>Menyelesaikan tugas-tugas teknis dan tantangan coding yang diberikan oleh mentor</li>
+                                <li>Mengembangkan project akhir berupa sistem deteksi emosi dalam klasifikasi teks menggunakan model LSTM (Long Short-Term Memory)</li>
+                                <li>Mempelajari dan menerapkan konsep-konsep kecerdasan buatan, pemrosesan bahasa alami, dan deep learning</li>
+                            </ul>
+                        </div>
+                    </div>
 
-<!-- Timeline item 2 -->
-<div class="timeline-item relative pl-14">
-    <div class="bg-white p-6 rounded-lg shadow-md">
-        <div class="flex justify-between items-start mb-2">
-            <h3 class="text-xl font-semibold">Teknik Instalasi Listrik</h3>
-            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Agustus 2019</span>
-        </div>
-        <h4 class="text-gray-700 font-medium mb-3">Balai Latihan Kerja – Purwakarta</h4>
-        <ul class="list-disc pl-5 text-gray-600 space-y-2">
-            <li>Keselamatan dan kepatuhan terhadap peraturan, termasuk penggunaan APD, prosedur penguncian/penandaan, dan pentanahan yang tepat.</li>
-            <li>Pemahaman umum konsep kelistrikan: sirkuit AC/DC, tegangan, arus, hambatan, dan daya.</li>
-        </ul>
-    </div>
-</div>
+                    <!-- Timeline item 2 -->
+                    <div class="timeline-item relative pl-14">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-semibold">Teknik Instalasi Listrik</h3>
+                                <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Agustus 2019</span>
+                            </div>
+                            <h4 class="text-gray-700 font-medium mb-3">Balai Latihan Kerja – Purwakarta</h4>
+                            <ul class="list-disc pl-5 text-gray-600 space-y-2">
+                                <li>Keselamatan dan kepatuhan terhadap peraturan, termasuk penggunaan APD, prosedur penguncian/penandaan, dan pentanahan yang tepat.</li>
+                                <li>Pemahaman umum konsep kelistrikan: sirkuit AC/DC, tegangan, arus, hambatan, dan daya.</li>
+                            </ul>
+                        </div>
+                    </div>
 
-<!-- Timeline item 3 -->
-<div class="timeline-item relative pl-14">
-    <div class="bg-white p-6 rounded-lg shadow-md">
-        <div class="flex justify-between items-start mb-2">
-            <h3 class="text-xl font-semibold">Operator Produksi</h3>
-            <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Nov 2019 - Nov 2020</span>
-        </div>
-        <h4 class="text-gray-700 font-medium mb-3">PT Nippon Indosari Corpindo Tbk – Purwakarta</h4>
-        <ul class="list-disc pl-5 text-gray-600 space-y-2">
-            <li>Bertanggung jawab dalam membuat roti tawar/manis.</li>
-            <li>Mengatur loyang yang berjalan ke tempat palet.</li>
-            <li>Mengawasi ruangan fermentasi agar roti mengembang dengan baik.</li>
-        </ul>
-    </div>
-</div>
-                <!-- /Timeline -->
+                    <!-- Timeline item 3 -->
+                    <div class="timeline-item relative pl-14">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex justify-between items-start mb-2">
+                                <h3 class="text-xl font-semibold">Operator Produksi</h3>
+                                <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Nov 2019 - Nov 2020</span>
+                            </div>
+                            <h4 class="text-gray-700 font-medium mb-3">PT Nippon Indosari Corpindo Tbk – Purwakarta</h4>
+                            <ul class="list-disc pl-5 text-gray-600 space-y-2">
+                                <li>Bertanggung jawab dalam membuat roti tawar/manis.</li>
+                                <li>Mengatur loyang yang berjalan ke tempat palet.</li>
+                                <li>Mengawasi ruangan fermentasi agar roti mengembang dengan baik.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- =========================================
-         CONTACT SECTION
-         ========================================= -->
+    <!-- CONTACT SECTION -->
     <section id="contact" class="py-20 px-4">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-12">
-                Get In <span class="text-indigo-600">Touch</span>
-            </h2>
+            <h2 class="text-3xl font-bold text-center mb-12">Get In <span class="text-indigo-600">Touch</span></h2>
 
             <div class="grid md:grid-cols-2 gap-12">
                 <!-- Contact Information (Left) -->
@@ -646,9 +535,8 @@
                         <!-- Email -->
                         <div class="flex items-center">
                             <div class="bg-indigo-100 p-4 rounded-full mr-4">
-                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                          d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                <svg class="w-6 h-6 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                                 </svg>
                             </div>
                             <div>
